@@ -73,4 +73,4 @@ yarn-error.log
 !.yarn/sdks
 !.yarn/versions
 
-./src/services/API.js
+src/services/API.js
