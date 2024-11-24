@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1062726791969",
+    "project_id": "baymaxapp-f1ec9",
+    "storage_bucket": "baymaxapp-f1ec9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062726791969:android:9587b511d0c638da548460",
+        "android_client_info": {
+          "package_name": "com.baymaxapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQWkYX0J8J063JvT83cR7BxkfzjIm80qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

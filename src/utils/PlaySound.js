@@ -52,9 +52,9 @@ export const initializeTtsListeners = async () => {
     },
   );
 
-  //   const voices= await Tts.voices()
-  //   console.log("This are Voices Available",voices);
-  Tts.setDefaultVoice('hi-in-x-hic-network');
+    const voices= await Tts.voices()
+    console.log("This are Voices Available",voices);
+  Tts.setDefaultVoice('hi-in-x-hie-network');
 //   Tts.setDefaultRate(0.3, true);
 //   Tts.setDefaultPitch(1.5);
   Tts.setIgnoreSilentSwitch('ignore');

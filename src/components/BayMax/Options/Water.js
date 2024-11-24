@@ -7,7 +7,7 @@ import {PlaySound} from '../../../utils/Sounds';
 import {useWaterStore} from '../../../state/waterStore';
 
 const Water = () => {
-  const {waterDrinkTimeStamp, addWaterIntake} = useWaterStore();
+  const {waterDrinkTimeStamp, addWaterIntake,resetWaterIntake} = useWaterStore();
   const totalSegments = 8;
   const completedSegments = waterDrinkTimeStamp.length;
   // console.log('completedSegment', completedSegments);
@@ -21,7 +21,24 @@ const Water = () => {
       const timestamp = new Date().toISOString();
       addWaterIntake(timestamp);
     } else {
-      Alert.alert('You have completed your daily intake !');
+      Alert.alert('You have completed your daily intake !' ,"If you want to rest press rest ",[
+        {
+          text:"Reset",
+          onPress:()=>resetWaterIntake()
+
+        },
+        {
+          text:"Cancel",
+          onPress:()=>console.log("Cancel is Pressed")
+          
+        },
+        {
+          text:"Ok",
+          onPress:()=>console.log("Ok is Pressed")
+          
+        },
+        
+      ]);
     }
   };
 

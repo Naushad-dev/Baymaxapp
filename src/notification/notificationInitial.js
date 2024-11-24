@@ -28,6 +28,7 @@ await notifee.displayNotification({
                 title:'okay',
                 pressAction:{
                     id:categoryId,
+                    launchActivity:'default'
 
                 }
             }
