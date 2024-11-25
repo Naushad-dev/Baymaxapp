@@ -1,3 +1,23 @@
+ Click Here 👉 [**Demo Video**](https://www.youtube.com/shorts/CsyIFN6gOMo)
+
+<h1>Tech Stack</h1>
+<ul>
+<li>React Native CLI</li>
+<li>Zustand </li>
+<li>mmkv Storage</li>
+<li>Firebase cloud messaging </li>   
+</ul>
+
+<h1>Features</h1>
+<ul>
+<li>Motivation & Health Tips: Powered by the Gemini API, it delivers daily health tips and uplifting content to keep you inspired.</li>
+<li>Step Counting: Integrated pedometer tracks your steps and encourages daily activity. </li>
+<li>Water Intake Reminders: Supports both local notifications and cloud notifications (via Firebase Cloud Messaging) to keep you hydrated.</li>
+<li>Text-to-Speech Engine: Interactive experience that talks to you with health tips and more. </li>   
+</ul>
+
+ 
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
